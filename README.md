@@ -147,8 +147,9 @@ The project relies on the following packages:
 You can install these dependencies by running:
 ```bash
 pip install -r requirements.txt
+```
 
-**### Conclusion**
+### Conclusion
 - The User Subscription Management System backend is built with Flask, providing secure authentication, subscription management, and profile management. The backend efficiently interacts with the frontend and handles all business logic related to user interactions. The system also uses cron jobs for automated subscription expiration updates and ensures that only authorized users (admin) can view expired subscriptions.
 
 
